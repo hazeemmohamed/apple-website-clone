@@ -69,12 +69,12 @@ function ImageComponent3(){
         }
     ]
     return(
-        <div className="container grid grid-cols-2 grid-rows-3 gap-3 p-3 ">
+        <div className="container md:grid md:grid-cols-2 md:grid-rows-3 md:gap-3 md:p-3 ">
             {
                 productSets.map((products,index)=>(
-                    <><div className={`${products.backgroundColor} h-[60vh] p-3 overflow-hidden p-10`}>
-                        <h1  className={`${products.textColor} text-3xl font-bold mb-3 text-center`} dangerouslySetInnerHTML={{ __html: products.title }}></h1>
-                        <h3 className={`${products.textColor} text-lg text-center`} dangerouslySetInnerHTML={{ __html: products.desc }}></h3>
+                    <><div className={`${products.backgroundColor} h-[60vh] p-3 overflow-hidden`}>
+                        <h1  className={`${products.textColor} text-xl md:text-3xl font-bold mb-3 text-center`} dangerouslySetInnerHTML={{ __html: products.title }}></h1>
+                        <h3 className={`${products.textColor} md:text-lg text-center`} dangerouslySetInnerHTML={{ __html: products.desc }}></h3>
                         <div className="space-x-4 mt-3 text-center">{products.button}</div>
                          <div>
                         <img src={products.image} alt="" className= {`${products.width} mx-auto mt-2 `} />

@@ -42,8 +42,8 @@ function Hero(){
         <>       {sectionsComp.map((sections,index) =>(
              <section key={index} className={`${sections.backgroundColor} ${sections.textColor} mx-auto h-[90vh] overflow-hidden`}>
             <div className="content-section mt-20 ">
-                <h1 className="text-6xl text-center  font-bold">{sections.title}</h1>
-                <h2 className=" text-center mt-4 mb-5 text-4xl " dangerouslySetInnerHTML={{ __html: sections.desc }}></h2>
+                <h1 className="text-3xl md:text-6xl text-center  font-bold">{sections.title}</h1>
+                <h2 className=" text-center mt-4 mb-5 text-2xl md:text-4xl " dangerouslySetInnerHTML={{ __html: sections.desc }}></h2>
                 <div className="buttons flex items-center justify-center gap-5">
                     <LearnMoreButton></LearnMoreButton>
                     <BuyButton></BuyButton>

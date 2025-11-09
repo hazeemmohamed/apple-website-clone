@@ -42,9 +42,9 @@ function Navbar(){
         
     ];
     return(
-        <nav className="sm:p-4 fixed top-0 left-0 w-full z-10 flex items-center justify-center sm:justify-between
-         text-gray-400 text-sm   bg-black/90 ">
-           <div className="md:pl-60"> <ul className=" sm:justify-between  sm:left-0 flex items-center  md:justify-center gap-10">
+        <nav className="p-4 fixed top-0 left-0 w-full z-10 flex items-center md:justify-center justify-between
+         text-gray-400 text-sm  gap-10  bg-black/90 ">
+           <div className=""> <ul className="  md:flex items-center  md:justify-center gap-10">
                 <li><FaApple></FaApple></li>
                 {navLinks.map((link, index)=>(
                     <li key={index}><a href="" className=" hidden md:flex cursor-pointer  hover:text-white ">{link.name}</a>
@@ -52,7 +52,7 @@ function Navbar(){
                 ))}
               
                 </ul></div>
-                <div className="flex gap-5 md:pr-60  ">
+                <div className="flex gap-5   ">
                 <FaSearch className="cursor-pointer  hover:text-white"></FaSearch>
                 <FaShoppingBag className="cursor-pointer  hover:text-white"></FaShoppingBag>
                 <FaBars className="md:hidden cursor-pointer  hover:text-white"></FaBars>

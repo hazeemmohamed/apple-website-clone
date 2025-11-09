@@ -4,7 +4,7 @@ function Footer(){
   
     return(
         <div className="container mx-auto bg-gray-100 text-sm">
-            <div className="paragraphContainer mx-[18%] py-10 text-gray-600">
+            <div className="paragraphContainer px-5 md:px-0 md:mx-[18%] py-10 text-gray-600">
                 <p className="mb-3">◊Instant cashback is available with the purchase of an eligible product with qualifying 
                     American Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001 
                     applies. Click here to see instant cashback amounts and eligible devices. Instant cashback 
@@ -33,13 +33,15 @@ function Footer(){
                 <p className="mb-3">A subscription is required for Apple TV+.</p>
                 <p>Features are subject to change. Some features, applications and services may not be available in all regions or all languages.</p>
             </div>
-            <hr className="border-gray-300 mx-auto w-[60%]" />
-            <div className="flex gap-10 text-gray-600 text-sm  mt-10 mx-[18%]">
+            <hr className="border-gray-300 mx-auto w-[90%] md:w-[60%]" />
+            <div className="md:flex gap-10 text-gray-600 text-sm  mt-10 px-5 md:px-0 md:mx-[18%]">
 
 
                 <div>
-                    <div> <ul>
-                        <li className="font-bold mb-2 "><a href="" >Shop and Learn</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 ">Shop and Learn</h1>
+                         <ul className="hidden md:block">
+                        
 
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Store</li>
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Mac</li>
@@ -53,9 +55,10 @@ function Footer(){
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Gift Cards</li>
                         </ul> </div>
                         
-                    <div> 
-                        <ul>
-                            <li className="font-bold mb-2 mt-5"><a href="#">Apple Wallet</a></li>
+                    <div className="border-b border-gray-300 md:border-0"> 
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">Apple Wallet</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Wallet</a></li>
                         </ul>
@@ -63,18 +66,20 @@ function Footer(){
                 </div>
 
                 <div>
-                    <div>
-                        <ul>
-                        <li className="font-bold mb-2"><a href="">Account</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-0">Account</h1>
+                        <ul className="hidden md:block">
+                        
 
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Manage Your Apple Account</li>
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Apple Store Account</li>
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>iCloud.com</li>
                         </ul>
                     </div>
-                    <div>
-                        <ul>
-                        <li className="font-bold mb-2 mt-5"><a href="">Entertainment</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">Entertainment</h1>
+                        <ul className="hidden md:block">
+                        
 
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Apple One</li>
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href=""></a>Apple TV+</li>
@@ -88,9 +93,10 @@ function Footer(){
                     </div>
                 </div>
 
-                <div> 
-                    <ul>
-                        <li className="font-bold mb-2"><a href="">Apple Store</a></li>
+                <div className="border-b border-gray-300 md:border-0"> 
+                    <h1 className="md:font-bold mb-2 mt-2 md:mt-0">Apple Store</h1>
+                    <ul className="hidden md:block">
+                        
 
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Find a Store</a></li>
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Genius Bar</a></li>
@@ -110,40 +116,46 @@ function Footer(){
                 
                 <div>
                     
-                    <div>
-                        <ul>
-                            <li className="font-bold mb-2"><a href="">For Business</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-0" >For Business</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Apple and Business</a></li>
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Shop for Business</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <ul>
-                            <li className="font-bold mb-2 mt-5"><a href="">For Education</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">For Education</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Apple and Education</a></li>
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Shop for Education</a></li>
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Shop for University</a></li>
                         </ul>
                     </div>
-                    <div> <ul>
-                        <li className="font-bold mb-2 mt-5"><a href="">For Healthcare</a></li>
+                    <div className="border-b border-gray-300 md:border-0"> 
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">For Healthcare</h1>
+                        <ul className="hidden md:block">
+                        
 
                         <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Apple and Healthcare</a></li>
                         </ul></div>
-                    <div>
-                        <ul>
-                            <li className="font-bold mb-2 mt-5"><a href="">For Government</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">For Government</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Apple and Government</a></li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <ul>
-                            <li className="font-bold mb-2"><a href="">Apple Values</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-0">Apple Values</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Accessibility</a></li>
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Education</a></li>
@@ -154,9 +166,10 @@ function Footer(){
 
                         </ul>
                     </div>
-                    <div>
-                        <ul>
-                            <li className="font-bold mb-2 mt-5"><a href="">About Apple</a></li>
+                    <div className="border-b border-gray-300 md:border-0">
+                        <h1 className="md:font-bold mb-2 mt-2 md:mt-5">About Apple</h1>
+                        <ul className="hidden md:block">
+                            
 
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Newsroom</a></li>
                             <li className="hover:underline hover:cursor-pointer mb-1"><a href="">Apple Leadership</a></li>
@@ -185,7 +198,7 @@ function Footer(){
 
             </div>
 
-            <div className="bottomFooter mx-[18%] mt-10">
+            <div className="bottomFooter text-wrap px-5 md:px-0 md:mx-[18%] mt-10">
                  <div className=" text-gray-600 text-sm flex flex-col mb-5 sm:flex-row justify-between">
         <p> More ways to shop: <a href="#" className="text-blue-600 hover:underline"> Find an Apple Store</a>{" "}or{" "}
           <a href="#" className="text-blue-600 hover:underline">other retailer </a> near you. Or call
@@ -194,7 +207,7 @@ function Footer(){
 
       </div>
 
-      <div className=" text-gray-600 text-xs pb-5 flex flex-col sm:flex-row justify-between border-t border-gray-300 pt-4">
+      <div className=" text-gray-600 text-sm text-wrap pb-5 md:flex md:flex-col sm:flex-row justify-between border-t border-gray-300 pt-4">
         <div className="flex gap-10"><p>Copyright © 2025 Apple Inc. All rights reserved.</p>
         <ul className="flex flex-wrap gap-2">
           <li><a href="#" className="hover:underline">Privacy Policy</a></li>
